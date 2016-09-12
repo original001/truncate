@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Truncate</title>
+</head>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial;
+    font-weight: 400;
+  }
+  .content {
+    white-space: nowrap;
+    width: 400px;
+    border: 1px solid #ddd;
+  }
+  .shim {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px; 
+    height: 2000px;
+    border: 1px solid #ddd;
+  }
+</style>
+<body>
+  <div class="shim"></div>
+  <script src="bower_components/lodash/dist/lodash.min.js"></script>
+  <script src="index.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
